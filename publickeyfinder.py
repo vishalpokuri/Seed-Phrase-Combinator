@@ -9,7 +9,7 @@ def generate_eth_address_from_seed_phrase(seed_phrase):
 
 def main():
     # Read your public key
-    known_public_key = "0xF5C26DEa9ccFdB0799968E16E7E9b7Bc978A2B29"
+    known_public_key = "0xYourKey"
     i=0
     # Read seed phrases from file
     with open("seed_phrases.txt", "r") as f:
